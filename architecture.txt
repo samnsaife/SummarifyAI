@@ -1,0 +1,25 @@
+┌─────────────────────────────────────────────────────────────┐
+│                    STREAMLIT WEB INTERFACE                  │
+├─────────────────────────────────────────────────────────────┤
+│  File Upload → Text Extraction → Processing → Summarization │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    CORE PROCESSING LAYER                    │
+├─────────────────┬─────────────────┬─────────────────────────┤
+│  PDF Processing │  Text Analysis  │  Summarization Engine   │
+│  • PyPDF2       │  • Tokenization │  • Extractive Method    │
+│  • Text Extract │  • Word Freq.   │  • Abstractive Method   │
+│  • Cleaning     │  • Scoring      │  • Sentence Selection   │
+└─────────────────┴─────────────────┴─────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                   NLP PROCESSING LAYER                      │
+├─────────────────┬───────────────────────────────────────────┤
+│  NLTK Enhanced  │             Fallback System               │ 
+│  • Advanced     │  • Simple Regex Tokenization              │
+│  • Tokenization │  • Basic Stopwords                        │
+│  • Stopwords    │  • Error Handling                         │
+└─────────────────┴───────────────────────────────────────────┘
