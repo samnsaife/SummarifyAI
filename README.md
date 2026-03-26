@@ -117,3 +117,10 @@ Then open the link shown in the terminal (usually
 -   Integration with Hugging Face Transformers for advanced abstractive
     summaries\
 -   Support for DOCX and TXT files
+
+------------------------------------------------------------------------
+
+## Author
+
+Sami Noor Saifi
+
